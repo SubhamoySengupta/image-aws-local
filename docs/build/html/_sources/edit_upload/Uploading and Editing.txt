@@ -1,0 +1,10 @@
+Uploading Images to S3 Buckets
+==============================
+
+This section explains how images are uploaded from local storage to AWS S3 buckets.
+
+.. toctree::
+   :maxdepth: 2
+
+   sync_local_s3.rst
+   

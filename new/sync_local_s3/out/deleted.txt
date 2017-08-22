@@ -1,0 +1,45 @@
+Completed 1 part(s) with ... file(s) remainingupload: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1975-renchin-beauty-touch/photos/1.jpg to s3://hyve-rootwork/1975-renchin-beauty-touch/photos/1.jpg
+Completed 2 part(s) with ... file(s) remainingupload: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1975-renchin-beauty-touch/photos/99.jpg to s3://hyve-rootwork/1975-renchin-beauty-touch/photos/99.jpg
+Completed 3 part(s) with ... file(s) remainingupload: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1975-renchin-beauty-touch/photos/3.jpg to s3://hyve-rootwork/1975-renchin-beauty-touch/photos/3.jpg
+Completed 4 part(s) with ... file(s) remainingupload: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1977-renchin-beauty-touch/photos/99.jpg to s3://hyve-rootwork/1977-renchin-beauty-touch/photos/99.jpg
+Completed 5 part(s) with ... file(s) remainingCompleted 6 part(s) with ... file(s) remainingupload: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1975-renchin-beauty-touch/photos/2.jpg to s3://hyve-rootwork/1975-renchin-beauty-touch/photos/2.jpg
+Completed 6 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/11.jpg
+Completed 7 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/2.jpg
+Completed 8 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/9.jpg
+Completed 9 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/3.jpg
+Completed 10 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/10.jpg
+Completed 11 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/4.jpg
+Completed 12 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/5.jpg
+Completed 13 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/1.jpg
+Completed 14 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/8.jpg
+Completed 15 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/7.jpg
+Completed 16 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/menus/6.jpg
+Completed 17 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/photos/1.jpg
+Completed 18 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/photos/3.jpg
+Completed 19 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/photos/2.jpg
+Completed 20 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/photos/4.jpg
+Completed 21 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/photos/5.jpg
+Completed 22 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/photos/7.jpg
+Completed 23 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/photos/6.jpg
+Completed 24 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/photos/9.jpg
+Completed 25 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1458-maniks/photos/99.jpg
+Completed 26 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1975-renchin-beauty-touch/photos/1.jpg
+Completed 27 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1975-renchin-beauty-touch/photos/2.jpg
+Completed 28 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1975-renchin-beauty-touch/photos/3.jpg
+Completed 29 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1977-renchin-beauty-touch/photos/99.jpg
+Completed 30 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/1975-renchin-beauty-touch/photos/99.jpg
+Completed 31 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/2035-eforea/photos/1.jpg
+Completed 32 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/2035-eforea/photos/2.jpg
+Completed 33 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/2035-eforea/photos/3.jpg
+Completed 34 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/2035-eforea/photos/5.jpg
+Completed 35 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/2035-eforea/photos/4.jpg
+Completed 36 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/2035-eforea/photos/6.jpg
+Completed 37 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/2035-eforea/photos/7.jpg
+Completed 38 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/2327-v3-slim-care/photos/0.png
+Completed 39 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/2327-v3-slim-care/photos/99.jpg
+Completed 40 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/622-dr-batras/photos/2.jpg
+Completed 41 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/622-dr-batras/photos/3.jpg
+Completed 42 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/622-dr-batras/photos/1.jpg
+Completed 43 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/622-dr-batras/photos/4.jpg
+Completed 44 part(s) with ... file(s) remainingdelete: s3://hyve-rootwork/stores/622-dr-batras/photos/99.jpg
+Completed 45 part(s) with ... file(s) remaining

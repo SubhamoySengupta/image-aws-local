@@ -1,0 +1,10 @@
+Editng & Uploading Images to S3 Buckets
+========================================
+
+This section explains how images are compressed and reduced in size and then uploaded to s3.
+
+.. toctree::
+   :maxdepth: 2
+
+   sync_loacl.rst
+   local_resize.rst

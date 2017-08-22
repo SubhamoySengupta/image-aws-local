@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>CLI-1</title>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+		<script src="{% static 'jquery-2.1.1.min.js' %}"></script>
+		<script src="{% static 'script_cli_1.js' %}"></script>
+	</head>
+	
+	<body>
+		<div class="col-md-10 col-md-offset-1 container">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					{{name}}
+					<span class="pull-right">
+						<button class="btn btn-default btn-sm" onclick="func_click_check()">Check</button>
+						<button class="btn btn-default btn-sm" onclick="func_click_run()">Run</button>
+					</span>
+				</div>
+				<div class="panel-body">
+					<div class="console">
+						
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+	</body>
+</html>

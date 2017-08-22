@@ -1,0 +1,339 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Syncing Hyve-rootwork and Hyve-store buckets &mdash; Syncing Images for Hyve Application 1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Syncing Images for Hyve Application 1.0 documentation" href="../index.html"/>
+        <link rel="up" title="Syncing s3 buckets and editing Images" href="syncing_editing.html"/>
+        <link rel="next" title="Queue Image Editing task to Iron Worker" href="edit_with_iron.html"/>
+        <link rel="prev" title="Syncing s3 buckets and editing Images" href="syncing_editing.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="../Introduction.html" class="icon icon-home"> Syncing Images for Hyve Application
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../edit_upload/EditingUploading.html">Editng &amp; Uploading Images to S3 Buckets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../edit_upload/local_resize.html">Compressing and Resizing Images</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/local_resize.html#installing-dependencies">Installing Dependencies</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../edit_upload/local_resize.html#installing-libjpeg">Installing libjpeg</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../edit_upload/local_resize.html#install-python-pillow">Install python - pillow</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/local_resize.html#get-the-code">Get the code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/local_resize.html#provide-access-paths">Provide Access Paths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/local_resize.html#available-commands">Available commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/local_resize.html#important-output-files">Important output files</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../edit_upload/local_resize.html#big-image-list-txt">big_image_list.txt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../edit_upload/sync_local_s3.html">Syncing local storage and S3 bucket</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/sync_local_s3.html#installing-dependencies">Installing Dependencies</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../edit_upload/sync_local_s3.html#aws-cli-installation">AWS CLI Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/sync_local_s3.html#get-the-code">Get the code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/sync_local_s3.html#provide-access-paths">Provide Access Paths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/sync_local_s3.html#available-commands">Available commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../edit_upload/sync_local_s3.html#important-output-files">Important output files</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../edit_upload/sync_local_s3.html#error-txt">error.txt</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../edit_upload/sync_local_s3.html#success-txt">success.txt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="syncing_editing.html">Syncing s3 buckets and editing Images</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">Syncing Hyve-rootwork and Hyve-store buckets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing-dependencies">Installing Dependencies</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#installing-python-boto">Installing python-boto</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#get-the-code">Get the code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#provide-access-paths-and-aws-credentials">Provide Access Paths and aws credentials</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#available-commands">Available commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#important-output-files">Important output files</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#modified-txt">modified.txt</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#duplicate-stores-txt">duplicate_stores.txt</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#new-txt">new.txt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="edit_with_iron.html">Queue Image Editing task to Iron Worker</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="edit_with_iron.html#installing-dependencies">Installing Dependencies</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="edit_with_iron.html#installing-iron-worker-cli">Installing iron worker CLI</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="edit_with_iron.html#queueing-tasks">Queueing tasks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_with_iron.html#description-of-tasks-performed">Description of tasks performed</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../gen_sql/script.html">Generate script to update image urls</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../gen_sql/script.html#get-the-code">Get the code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gen_sql/script.html#available-commands">Available commands</a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../Introduction.html">Syncing Images for Hyve Application</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../Introduction.html">Docs</a> &raquo;</li>
+      
+          <li><a href="syncing_editing.html">Syncing s3 buckets and editing Images</a> &raquo;</li>
+      
+    <li>Syncing Hyve-rootwork and Hyve-store buckets</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/sync_buckets/sync_buckets.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="syncing-hyve-rootwork-and-hyve-store-buckets">
+<h1>Syncing Hyve-rootwork and Hyve-store buckets<a class="headerlink" href="#syncing-hyve-rootwork-and-hyve-store-buckets" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="installing-dependencies">
+<h2>Installing Dependencies<a class="headerlink" href="#installing-dependencies" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="installing-python-boto">
+<h3>Installing python-boto<a class="headerlink" href="#installing-python-boto" title="Permalink to this headline">¶</a></h3>
+<p>boto is an integrated python interface to current and future infrastructural services offered by Amazon Web Services.</p>
+<p>You can install boto from pip</p>
+<div class="highlight-python"><div class="highlight"><pre>sudo pip install boto
+</pre></div>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference external" href="https://boto.readthedocs.org/en/latest/getting_started.html">Getting Started wth boto</a>.</p>
+</div>
+</div>
+</div>
+<div class="section" id="get-the-code">
+<h2>Get the code<a class="headerlink" href="#get-the-code" title="Permalink to this headline">¶</a></h2>
+<p>Download the code from the following <a class="reference external" href="http://noname.local">link</a>.</p>
+<p>The zip package includes:</p>
+<div class="highlight-python"><div class="highlight"><pre>~/root
+  | - /out
+  | - /resources
+  | - /sync_modules
+  |     | - / aws_con.py
+  |     | - / trim.py
+  |     | - / credentials.py
+  |     | - / __init__.py
+  | - /sync_remote.py
+  | - /iron.json
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The iron.json file stores the encrypted token required to invoke iron worker commands</p>
+</div>
+</div>
+<div class="section" id="provide-access-paths-and-aws-credentials">
+<h2>Provide Access Paths and aws credentials<a class="headerlink" href="#provide-access-paths-and-aws-credentials" title="Permalink to this headline">¶</a></h2>
+<p>The following information are stored in a text file and are required by the program at runtime</p>
+<table class="hlist"><tr><td><ul class="simple">
+<li><strong>aws_access_key_id</strong></li>
+<li><strong>aws_secret_access_key</strong></li>
+<li><strong>region</strong></li>
+<li><strong>in_bucket</strong></li>
+<li><strong>out_bucket</strong></li>
+</ul>
+</td></tr></table>
+<p>To add/edit these information simply run:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ python sync_remote.py configure
+</pre></div>
+</div>
+</div>
+<div class="section" id="available-commands">
+<h2>Available commands<a class="headerlink" href="#available-commands" title="Permalink to this headline">¶</a></h2>
+<p>The following commands are available:</p>
+<table class="hlist"><tr><td><ul class="simple">
+<li><strong>$ python sync_remote.py dryrun</strong> - <em>Generate a list of files which needs to be updated/copied</em></li>
+<li><strong>$ python sync_remote.py copy</strong> - <em>Start copying the list of files</em></li>
+<li><strong>$ python sync_remote.py sync</strong> - <em>Sync hyve-rootwork and hyve-store</em></li>
+<li><strong>$ python sync_remote.py configure</strong> - <em>Configure aws credentials and in/out buckets</em></li>
+<li><strong>$ python sync_remote.py help</strong> - <em>Show available commands</em></li>
+</ul>
+</td></tr></table>
+</div>
+<div class="section" id="important-output-files">
+<h2>Important output files<a class="headerlink" href="#important-output-files" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="modified-txt">
+<h3>modified.txt<a class="headerlink" href="#modified-txt" title="Permalink to this headline">¶</a></h3>
+<p>List of files which exists in hyve-store but needs to be modified.
+The following check ensure that a file should be modified in hyve-store bucket:</p>
+<table class="hlist"><tr><td><ul class="simple">
+<li>the &#8216;<em>last_modified</em>&#8216; property of aws key object tells us the time when a file was last modified in s3 bucket. In any situation the last_modified timestamp of an image file in hyve-rootwork bucket must be older than the timestamp of the corresponding file in hyve-store.</li>
+</ul>
+</td></tr></table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Modifying files donot change their url. So no changes are required in the api or the database.</p>
+</div>
+</div>
+<div class="section" id="duplicate-stores-txt">
+<h3>duplicate_stores.txt<a class="headerlink" href="#duplicate-stores-txt" title="Permalink to this headline">¶</a></h3>
+<p>List of files which must be deleted from hyve-store since they are no longer required</p>
+</div>
+<div class="section" id="new-txt">
+<h3>new.txt<a class="headerlink" href="#new-txt" title="Permalink to this headline">¶</a></h3>
+<p>The list of files which doesn&#8217;t exist in hyve-store and needs to be copied.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="edit_with_iron.html" class="btn btn-neutral float-right" title="Queue Image Editing task to Iron Worker" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="syncing_editing.html" class="btn btn-neutral" title="Syncing s3 buckets and editing Images" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Subhamoy Sengupta.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

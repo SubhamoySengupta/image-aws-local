@@ -1,0 +1,115 @@
+delete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/1.jpg
+Completed 1 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/10.jpg
+Completed 2 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/11.jpg
+Completed 3 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/2.jpg
+Completed 4 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/3.jpg
+Completed 5 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/4.jpg
+Completed 6 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/5.jpg
+Completed 7 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/6.jpg
+Completed 8 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/7.jpg
+Completed 9 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/8.jpg
+Completed 10 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/menus/9.jpg
+Completed 11 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/photos/1.jpg
+Completed 12 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/photos/3.jpg
+Completed 13 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/photos/2.jpg
+Completed 14 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/photos/4.jpg
+Completed 15 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/photos/5.jpg
+Completed 16 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/photos/6.jpg
+Completed 17 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/photos/7.jpg
+Completed 18 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/photos/9.jpg
+Completed 19 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1458-maniks/photos/99.jpg
+Completed 20 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1975-renchin-beauty-touch/photos/1.jpg
+Completed 21 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1975-renchin-beauty-touch/photos/2.jpg
+Completed 22 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1975-renchin-beauty-touch/photos/3.jpg
+Completed 23 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1975-renchin-beauty-touch/photos/99.jpg
+Completed 24 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/1977-renchin-beauty-touch/photos/99.jpg
+Completed 25 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/2035-eforea/photos/1.jpg
+Completed 26 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/2035-eforea/photos/2.jpg
+Completed 27 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/2035-eforea/photos/3.jpg
+Completed 28 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/2035-eforea/photos/4.jpg
+Completed 29 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/2035-eforea/photos/5.jpg
+Completed 30 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/2035-eforea/photos/6.jpg
+Completed 31 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/2035-eforea/photos/7.jpg
+Completed 32 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/2327-v3-slim-care/photos/0.png
+Completed 33 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/2327-v3-slim-care/photos/99.jpg
+Completed 34 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/622-dr-batras/photos/1.jpg
+Completed 35 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/622-dr-batras/photos/2.jpg
+Completed 36 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/622-dr-batras/photos/3.jpg
+Completed 37 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/622-dr-batras/photos/4.jpg
+Completed 38 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/622-dr-batras/photos/99.jpg
+Completed 39 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/11.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/11.jpg
+Completed 40 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/2.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/2.jpg
+Completed 41 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/10.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/10.jpg
+Completed 42 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/7.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/7.jpg
+Completed 43 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/photos/1.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/photos/1.jpg
+Completed 44 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/6.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/6.jpg
+Completed 45 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/8.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/8.jpg
+Completed 46 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/photos/2.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/photos/2.jpg
+Completed 47 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/1.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/1.jpg
+Completed 48 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/3.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/3.jpg
+Completed 49 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/photos/3.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/photos/3.jpg
+Completed 50 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/5.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/5.jpg
+Completed 51 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/photos/4.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/photos/4.jpg
+Completed 52 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/photos/6.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/photos/6.jpg
+Completed 53 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/photos/5.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/photos/5.jpg
+Completed 54 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/photos/7.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/photos/7.jpg
+Completed 55 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/4.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/4.jpg
+Completed 56 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/photos/99.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/photos/99.jpg
+Completed 57 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/photos/9.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/photos/9.jpg
+Completed 58 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1458-maniks/menus/9.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1458-maniks/menus/9.jpg
+Completed 59 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1975-renchin-beauty-touch/photos/1.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1975-renchin-beauty-touch/photos/1.jpg
+Completed 60 part(s) with ... file(s) remainingCompleted 61 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1975-renchin-beauty-touch/photos/2.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1975-renchin-beauty-touch/photos/2.jpg
+Completed 61 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1975-renchin-beauty-touch/photos/99.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1975-renchin-beauty-touch/photos/99.jpg
+Completed 62 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/2035-eforea/photos/2.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2035-eforea/photos/2.jpg
+Completed 63 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/2035-eforea/photos/1.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2035-eforea/photos/1.jpg
+Completed 64 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/2327-v3-slim-care/photos/0.png to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2327-v3-slim-care/photos/0.png
+Completed 65 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1977-renchin-beauty-touch/photos/99.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1977-renchin-beauty-touch/photos/99.jpg
+Completed 66 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/1975-renchin-beauty-touch/photos/3.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/1975-renchin-beauty-touch/photos/3.jpg
+Completed 67 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2501-pavithra/1.jpg
+Completed 68 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2503-chethana/1.jpg
+Completed 69 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2507-azmath-hafsa/1.jpg
+Completed 70 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2515-sunitha-r/1.jpg
+Completed 71 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2518-manjula/1.jpg
+Completed 72 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2520-mary/1.jpg
+Completed 73 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2521-poornima-biswa/1.jpg
+Completed 74 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2522-bindu/1.jpg
+Completed 75 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2527-vedha/1.jpg
+Completed 76 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2530-harini/1.jpg
+Completed 77 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2533-ameena/1.jpg
+Completed 78 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2534-lakshmi/1.jpg
+Completed 79 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2535-indira-s/1.jpg
+Completed 80 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2541-sumithra/1.jpg
+Completed 81 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2547-sunitha/1.jpg
+Completed 82 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2548-vani-v/1.jpg
+Completed 83 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2552-padmavathi/1.jpg
+Completed 84 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2553-sunitha-a/1.jpg
+Completed 85 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2557-susheela-m/1.jpg
+Completed 86 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2559-shakunthala/1.jpg
+Completed 87 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2563-sujatha/1.jpg
+Completed 88 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2564-ramya-antony-raj/1.jpg
+Completed 89 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2565-dhanalakshmi/1.jpg
+Completed 90 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2566-sowmya-r/1.jpg
+Completed 91 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2571-roshan-s/1.jpg
+Completed 92 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2572-prema/1.jpg
+Completed 93 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2573-anitha-a/1.jpg
+Completed 94 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2574-s-vanitha/1.jpg
+Completed 95 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2575-pallavi-g/1.jpg
+Completed 96 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2576-p-b-vani/1.jpg
+Completed 97 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2577-latha/1.jpg
+Completed 98 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2578-jyothi-v-b/1.jpg
+Completed 99 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2579-nalini/1.jpg
+Completed 100 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2580-jayalakshmi/1.jpg
+Completed 101 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2581-umavathi/1.jpg
+Completed 102 part(s) with ... file(s) remainingdelete: ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2582-latha-n-l/1.jpg
+Completed 103 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/2035-eforea/photos/4.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2035-eforea/photos/4.jpg
+Completed 104 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/2035-eforea/photos/5.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2035-eforea/photos/5.jpg
+Completed 105 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/2035-eforea/photos/6.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2035-eforea/photos/6.jpg
+Completed 106 part(s) with ... file(s) remainingCompleted 107 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/2035-eforea/photos/3.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2035-eforea/photos/3.jpg
+Completed 107 part(s) with ... file(s) remainingCompleted 108 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/2327-v3-slim-care/photos/99.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2327-v3-slim-care/photos/99.jpg
+Completed 108 part(s) with ... file(s) remainingCompleted 109 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/2035-eforea/photos/7.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/2035-eforea/photos/7.jpg
+Completed 109 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/622-dr-batras/photos/2.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/622-dr-batras/photos/2.jpg
+Completed 110 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/622-dr-batras/photos/1.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/622-dr-batras/photos/1.jpg
+Completed 111 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/622-dr-batras/photos/4.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/622-dr-batras/photos/4.jpg
+Completed 112 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/622-dr-batras/photos/99.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/622-dr-batras/photos/99.jpg
+Completed 113 part(s) with ... file(s) remainingdownload: s3://hyve-rootwork/stores/622-dr-batras/photos/3.jpg to ../../../../../../run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/stores/622-dr-batras/photos/3.jpg
+Completed 114 part(s) with ... file(s) remaining

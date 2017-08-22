@@ -1,0 +1,4 @@
+[Add/edit paths to source and destination directory]
+
+source = /run/user/1000/gvfs/smb-share:server=192.168.0.51,share=hyve/hyve-rootwork/
+destination = s3://hyve-rootwork/

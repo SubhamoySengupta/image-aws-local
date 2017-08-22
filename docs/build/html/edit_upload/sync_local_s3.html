@@ -1,0 +1,323 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Syncing local storage and S3 bucket &mdash; Syncing Images for Hyve Application 1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Syncing Images for Hyve Application 1.0 documentation" href="../index.html"/>
+        <link rel="up" title="Editng &amp; Uploading Images to S3 Buckets" href="EditingUploading.html"/>
+        <link rel="next" title="Syncing s3 buckets and editing Images" href="../sync_buckets/syncing_editing.html"/>
+        <link rel="prev" title="Compressing and Resizing Images" href="local_resize.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="../Introduction.html" class="icon icon-home"> Syncing Images for Hyve Application
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="EditingUploading.html">Editng &amp; Uploading Images to S3 Buckets</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="local_resize.html">Compressing and Resizing Images</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="local_resize.html#installing-dependencies">Installing Dependencies</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="local_resize.html#installing-libjpeg">Installing libjpeg</a></li>
+<li class="toctree-l4"><a class="reference internal" href="local_resize.html#install-python-pillow">Install python - pillow</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="local_resize.html#get-the-code">Get the code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="local_resize.html#provide-access-paths">Provide Access Paths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="local_resize.html#available-commands">Available commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="local_resize.html#important-output-files">Important output files</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="local_resize.html#big-image-list-txt">big_image_list.txt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Syncing local storage and S3 bucket</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing-dependencies">Installing Dependencies</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#aws-cli-installation">AWS CLI Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#get-the-code">Get the code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#provide-access-paths">Provide Access Paths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#available-commands">Available commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#important-output-files">Important output files</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#error-txt">error.txt</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#success-txt">success.txt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../sync_buckets/syncing_editing.html">Syncing s3 buckets and editing Images</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../sync_buckets/sync_buckets.html">Syncing Hyve-rootwork and Hyve-store buckets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../sync_buckets/sync_buckets.html#installing-dependencies">Installing Dependencies</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../sync_buckets/sync_buckets.html#installing-python-boto">Installing python-boto</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../sync_buckets/sync_buckets.html#get-the-code">Get the code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sync_buckets/sync_buckets.html#provide-access-paths-and-aws-credentials">Provide Access Paths and aws credentials</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sync_buckets/sync_buckets.html#available-commands">Available commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sync_buckets/sync_buckets.html#important-output-files">Important output files</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../sync_buckets/sync_buckets.html#modified-txt">modified.txt</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sync_buckets/sync_buckets.html#duplicate-stores-txt">duplicate_stores.txt</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sync_buckets/sync_buckets.html#new-txt">new.txt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../sync_buckets/edit_with_iron.html">Queue Image Editing task to Iron Worker</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../sync_buckets/edit_with_iron.html#installing-dependencies">Installing Dependencies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sync_buckets/edit_with_iron.html#installing-iron-worker-cli">Installing iron worker CLI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sync_buckets/edit_with_iron.html#queueing-tasks">Queueing tasks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sync_buckets/edit_with_iron.html#description-of-tasks-performed">Description of tasks performed</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../Introduction.html">Syncing Images for Hyve Application</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../Introduction.html">Docs</a> &raquo;</li>
+      
+          <li><a href="EditingUploading.html">Editng &amp; Uploading Images to S3 Buckets</a> &raquo;</li>
+      
+    <li>Syncing local storage and S3 bucket</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/edit_upload/sync_local_s3.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="syncing-local-storage-and-s3-bucket">
+<h1>Syncing local storage and S3 bucket<a class="headerlink" href="#syncing-local-storage-and-s3-bucket" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="installing-dependencies">
+<h2>Installing Dependencies<a class="headerlink" href="#installing-dependencies" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="aws-cli-installation">
+<h3>AWS CLI Installation<a class="headerlink" href="#aws-cli-installation" title="Permalink to this headline">¶</a></h3>
+<p>You must install AWS CLI Interface to run aws commands from your terminal. On Ubuntu run:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ curl &quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip&quot; -o &quot;awscli-bundle.zip&quot;
+$ unzip awscli-bundle.zip
+$ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+</pre></div>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference external" href="http://docs.aws.amazon.com/cli/latest/userguide/installing.html#install-bundle-other-os">Install the AWS CLI Using the Bundled Installer</a>.</p>
+</div>
+</div>
+</div>
+<div class="section" id="get-the-code">
+<h2>Get the code<a class="headerlink" href="#get-the-code" title="Permalink to this headline">¶</a></h2>
+<p>Download the code from the following <a class="reference external" href="http://noname.local">link</a>.</p>
+<p>The zip package includes:</p>
+<div class="highlight-python"><div class="highlight"><pre>~/root
+  | - /out
+  | - /sync_module
+  |     | - / cli.py
+  |     | - / paths.py
+  |     | - / __init__.py
+  | - /hyve_sync.py
+</pre></div>
+</div>
+</div>
+<div class="section" id="provide-access-paths">
+<h2>Provide Access Paths<a class="headerlink" href="#provide-access-paths" title="Permalink to this headline">¶</a></h2>
+<p>The following information are stored in a text file and are required by the program at runtime</p>
+<table class="hlist"><tr><td><ul class="simple">
+<li>source_path - <em>absolute path of local storage</em></li>
+<li>destination_path - <em>S3 bucket path</em></li>
+</ul>
+</td></tr></table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Local storage path can be network drive. In this case read the article below to
+<a class="reference external" href="https://wiki.ubuntu.com/MountWindowsSharesPermanently">mount network drives permanently on Ubuntu</a>.</p>
+</div>
+<p>To add/edit these paths simply run:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ python hyve_sync.py configure
+</pre></div>
+</div>
+</div>
+<div class="section" id="available-commands">
+<h2>Available commands<a class="headerlink" href="#available-commands" title="Permalink to this headline">¶</a></h2>
+<p>The following commands are available:</p>
+<table class="hlist"><tr><td><ul class="simple">
+<li><strong>$ python hyve_sync.py dryrun</strong> - <em>Generate a list of files which needs to be updated/copied</em></li>
+<li><strong>$ python hyve_sync.py copy</strong> - <em>Start copying the list of files</em></li>
+<li><strong>$ python hyve_sync.py sync</strong> - <em>Sync local drive with s3 buckets</em></li>
+<li><strong>$ python hyve_sync.py configure</strong> - <em>Configure local and remote paths</em></li>
+<li><strong>$ python hyve_sync.py help</strong> - <em>Show available commands</em></li>
+</ul>
+</td></tr></table>
+</div>
+<div class="section" id="important-output-files">
+<h2>Important output files<a class="headerlink" href="#important-output-files" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="error-txt">
+<h3>error.txt<a class="headerlink" href="#error-txt" title="Permalink to this headline">¶</a></h3>
+<p>List of files in local drive which are not uploaded are saved here. Files without an appropiate path, name, or extension are not uploaded.
+The following checks ensure that a file will not be copied to remote bucket:</p>
+<table class="hlist"><tr><td><ul class="simple">
+<li>The path(url) must be of the following format - <em>stores/{slug_name_of_store}/{photos or menus}/{numerical name}.jpg</em></li>
+<li>File extension must be &#8216;jpg&#8217;</li>
+<li>FileName must be a digit.</li>
+</ul>
+</td></tr></table>
+<p>This error file must be referred so as to correct the image file properties in the local storage.</p>
+</div>
+<div class="section" id="success-txt">
+<h3>success.txt<a class="headerlink" href="#success-txt" title="Permalink to this headline">¶</a></h3>
+<p>The list of files in local drive which are ready to be copied to the remote bucket.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../sync_buckets/syncing_editing.html" class="btn btn-neutral float-right" title="Syncing s3 buckets and editing Images" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="local_resize.html" class="btn btn-neutral" title="Compressing and Resizing Images" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Subhamoy Sengupta.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+[Add/edit paths to source and destination directory]
+
+source = /run/user/1000/gvfs/afp-volume:host=WDMyCloud.local,user=anonymous,volume=Hyve/hyve-rootwork/
+destination = s3://hyve-rootwork/

@@ -1,0 +1,6 @@
+#!/bin/bash
+while read line
+do
+    name=$line
+    iron_worker queue image-resize-and-export -p "{\"url\":\"$line\",\"compression\":80}"
+done < $1
